@@ -8,16 +8,10 @@ void main(){
 
 String input = '',value = '',resultFinal='';
 
-
-
-
 int value1 =0 ,value2=0,result=0,presssequal = 0, presskey = 0,operator = 0 ,
 activity = 0;
 
 double? dresult;
-
-
-
 
 
 class Calculator extends StatefulWidget {
@@ -31,6 +25,8 @@ class _CalculatorState extends State<Calculator> {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
+
+      debugShowCheckedModeBanner: false,
 
       theme: ThemeData(fontFamily: 'LibreBaskerville'),
 
